@@ -1,5 +1,5 @@
 * {
-    border: dotted #db8b3b 1px;
+    border: dotted 1px;
 }
 
 :root {
@@ -17,6 +17,11 @@ body {
 
 a {
     color: var(--text-light);
+    display: inline-block;
+}
+
+a:hover {
+    box-shadow: 3px;
 }
 
 i {
@@ -48,6 +53,12 @@ footer {
     color: var(--text);
     box-shadow: 3px var(--bg);
 
+
+}
+
+.border {
+    border: 1px var(--text-light) !important;
+
 }
 
 button {
@@ -55,11 +66,13 @@ button {
     background-color: var(--bg-dark);
     color: var(--text-light);
     width: 100px;
+    margin: .5em;
 }
 
 button:hover {
     box-shadow: hwb(209 0% 42%);
     transition: all linear .5s;
+    background-color: (210, 77%, 95%, 0.667);
 }
 
 .logo-img {

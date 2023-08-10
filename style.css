@@ -50,6 +50,18 @@ footer {
 
 }
 
+button {
+    border-radius: 15px;
+    background-color: var(--bg-dark);
+    color: var(--text-light);
+    width: 100px;
+}
+
+button:hover {
+    box-shadow: hwb(209 0% 42%);
+    transition: all linear .5s;
+}
+
 .logo-img {
     height: 2%vh;
     align-items: start;
